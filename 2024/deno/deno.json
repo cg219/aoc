@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "d1": "deno run --watch -A 1.ts"
+    "d1-2": "deno run --watch -A 1-2.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
